@@ -4,8 +4,8 @@ const Navbar = () => {
   return (
     <div className='xl:mx-36 mx-10'>
         <div className='justify-between flex pt-8'>
-            <div className='my-auto'><span className='font-normal text-[16px] text-[#310e0e]'>LOGO</span></div>
-            <div className='font-normal text-[16px] text-[#310e0e] sm:flex gap-10 my-auto hidden '>
+            <div className='my-auto cursor-pointer'><span className='font-normal text-[16px] text-[#310e0e]'>LOGO</span></div>
+            <div className='font-normal text-[16px] text-[#310e0e] sm:flex gap-10 my-auto hidden cursor-pointer'>
                 <span>Home</span>
                 <span>About Us</span>
                 <span>Contact Us</span>
