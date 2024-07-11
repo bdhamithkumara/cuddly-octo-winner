@@ -2,32 +2,52 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+
+
+
+.backgroundImage {
+  background-image: url('https://i.ibb.co/cQ5fkWh/Gradient.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.bgColorMedicines{
+  background-color: rgba(0, 224, 255, 0.24);
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.btnMedicines{
+  box-shadow: 3px 8px 16.8px 0 rgba(35, 62, 96, 0.33);
+  background-color: #00588a;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.bgColorDineEase{
+  background-color: rgba(255, 199, 0, 0.37);
+}
+
+.textColor{
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.btnDineEase{
+  box-shadow: 9px 9px 16.8px 0 rgba(35, 62, 96, 0.33);
+  background-color: #665e40;
+}
+
+.bgColorFindCars{
+  background-color: rgba(255, 122, 0, 0.47);
+}
+
+.btnFindCars{
+  box-shadow: 9px 9px 16.8px 0 rgba(35, 62, 96, 0.33);
+  background-color: #664d36;
+}
+
+.bgColorElectronics{
+  background-color: rgba(66, 255, 0, 0.37);
+}
+
+.btnElectronics{
+  box-shadow: 9px 9px 16.8px 0 rgba(35, 62, 96, 0.33);
+  background-color: #4a6640;
 }
